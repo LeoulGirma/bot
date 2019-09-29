@@ -3,7 +3,7 @@
 require_once 'PollBot.php';
 
 define('BOT_TOKEN', '916786096:AAGiiEOXMroREHaqsybtIMNS5LtBX8H9PNg');
-define('BOT_WEBHOOK', 'https://bot.server/poll-bot-webhook.php');
+define('BOT_WEBHOOK', 'https://github.com/Leoulg1900/bot/blob/master/poll-bot-webhook.php');
 
 $bot = new PollBot(BOT_TOKEN, 'PollBotChat');
 
